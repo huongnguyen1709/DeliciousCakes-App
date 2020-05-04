@@ -1,17 +1,15 @@
 import React, { Component } from 'react';
-import '../../sass/main.scss';
-
 import CardComponent from '../Card/Card';
 
 import StrawberryCake from '../../Assets/Icons/StrawberryCake.jpg';
 import FruitCake from '../../Assets/Icons/FruitCake.jpg';
 import WhitechocolateCake from '../../Assets/Icons/WhitechocolateCake.jpg';
 import MatchaCake from '../../Assets/Icons/MatchaCake.jpg';
-import ChocolateCake from '../../Assets/Icons/ChocolateCake.jpg';
+import ChocolateCake from '../../Assets/Icons/ChocolateCake.webp';
 import OrangeCake from '../../Assets/Icons/OrangeCake.jpg';
 
 
-class ContainerComponent extends Component {
+class CardContainer extends Component {
 
     state = {
         categories: [
@@ -61,7 +59,7 @@ class ContainerComponent extends Component {
                 <div className="bars"></div>
 
                 <section className="top">
-                    Categories
+                    Delicious Cakes
                 </section>
 
                 <section className="bottom">
@@ -77,4 +75,4 @@ class ContainerComponent extends Component {
     }
 }
 
-export default ContainerComponent;
+export default CardContainer;
